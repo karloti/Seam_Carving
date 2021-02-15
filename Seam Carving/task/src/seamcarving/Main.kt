@@ -103,7 +103,7 @@ class SeamCarving(inputFileName: String?, outputFileName: String?) {
 // The program is for adjacency matrix representation of the graph
 
 
-class ShortestPath() {
+class ShortestPath {
     val v = 9
 
     fun minDistance(dist: IntArray, sptSet: Array<Boolean?>): Int {
